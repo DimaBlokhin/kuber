@@ -15,10 +15,7 @@ Example of the project, where i'm gonna whip up a simple web app, pack it into a
 
 #### Создание Docker-образа
 
-```bash
-docker build -t webApp .
-
-#### Тестирование контейнера локально
+docker build -t webApp . 
 
 docker run -p 5000:5000 webApp
 
