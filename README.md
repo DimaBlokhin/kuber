@@ -15,9 +15,9 @@ Example of the project, where i'm gonna whip up a simple web app, pack it into a
 
 #### Создание Docker-образа
 
-docker build -t webApp . 
+```docker build -t webApp . ```
 
-docker run -p 5000:5000 webApp
+```docker run -p 5000:5000 webApp```
 
 #### Приложение должно быть доступно по адресу http://localhost:5000
 
@@ -27,25 +27,17 @@ docker run -p 5000:5000 webApp
 #### Следуйте инструкциям для установки Minikube.
 #### Запуск Minikube
 
-minikube start
+```minikube start```
 
 #### Применение конфигураций Kubernetes
 
-kubectl apply -f deployment.yml
-kubectl apply -f service.yml
+```kubectl apply -f deployment.yml```
+```kubectl apply -f service.yml```
 
 ### 4. Тестирование развертывания
 
 #### Получение IP-адреса Minikube
 
-minikube ip
+```minikube ip```
 
 #### Откройте веб-браузер по адресу http://<minikube_ip>:<service_port>
-
-
-
-
-
-
-
-
