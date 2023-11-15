@@ -1,5 +1,5 @@
 # kuber
-Example of the project, where i'm gonna whip up a simple web app, pack it into a Docker container, and then run these containers using Kubernetes
+Пример проекта, в котором я создаю простое веб-приложение, упаковываю его в контейнер Docker, а затем запускаю эти контейнеры с помощью Kubernetes.
 
 
 
